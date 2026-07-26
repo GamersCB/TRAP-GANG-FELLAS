@@ -1,0 +1,49 @@
+{
+  "id": "com.trapgangfellas.app",
+  "name": "TRAP GANG FELLAS",
+  "short_name": "TGF",
+  "description": "El epicentro de la música urbana más cruda y auténtica. Aquí nacen las leyendas, se forjan los ritmos que dominan las calles y se eleva la voz de una generación.",
+  "lang": "es-ES",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#8B5CF6",
+  "categories": ["music", "entertainment"],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "icons": [
+    {
+      "src": "web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "TRAP GANG FELLAS en Escritorio"
+    },
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "TRAP GANG FELLAS en Móvil"
+    }
+  ]
+}
